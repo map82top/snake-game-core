@@ -1,7 +1,6 @@
 import Room from '@/entities/rooms/room.js'
 
 describe('Room class', () => {
-    
     describe('constructor', () => {
         it('should create a Room instance with valid width and height', () => {
             const room = new Room(10, 20)
