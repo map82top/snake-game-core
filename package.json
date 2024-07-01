@@ -1,13 +1,22 @@
 {
-  "name": "snake",
-  "description": "",
+  "name": "snake-game",
+  "description": "Simple snake game core for fast implementation the game using any JavaScript framework",
+  "keywords": ["snake", "game core"],
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "version": "1.0.0",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/map82top/snake-game-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/map82top/snake-game-core/issues"
+  },
+  "homepage": "https://github.com/map82top/snake-game-core#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^29.7.0",
